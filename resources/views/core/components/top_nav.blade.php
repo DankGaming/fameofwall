@@ -262,9 +262,9 @@
 
             <li class="dropdown notification-list topbar-dropdown">
                 <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <img src="../assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                    <img src="{{ Auth::user()->avatar }}" alt="user-image" class="rounded-circle">
                     <span class="pro-user-name ms-1">
-                                    Nik Patel <i class="mdi mdi-chevron-down"></i>
+                                    {{ Auth::user()->name }} <i class="mdi mdi-chevron-down"></i>
                                 </span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
