@@ -126,6 +126,123 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card overflow-hidden mb-4">
+                                <div class="blog-img">
+                                    <img src="images/blog/img-5.jpg" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                                <div class="blog-content p-3 mx-3">
+                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">A person discuss for project </a></h4>
+                                    <p class="text-muted mb-0">If several languages coalesce, the grammar of the resulting language</p>
+                                </div>
+                                <div class="blog-meta px-4 pb-3">
+                                    <p class="float-end text-muted pt-1 mb-0">08 May, 2019</p>
+                                    <div class="float-start me-2">
+                                        <img src="images/users/img-2.png" alt="" class="rounded-circle avatar-sm">
+                                    </div>
+                                    <h5 class="font-14 mt-0 pt-2">Andrew Smith</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card overflow-hidden mb-4">
+                                <div class="blog-img">
+                                    <img src="images/blog/img-6.jpg" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                                <div class="blog-content p-3 mx-3">
+                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">A person discuss for project </a></h4>
+                                    <p class="text-muted mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                                </div>
+                                <div class="blog-meta px-4 pb-3">
+                                    <p class="float-end text-muted pt-1 mb-0">09 May, 2019</p>
+                                    <div class="float-start me-2">
+                                        <img src="images/users/img-3.png" alt="" class="rounded-circle avatar-sm">
+                                    </div>
+                                    <h5 class="font-14 mt-0 pt-2">Daniel Hatcher</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card overflow-hidden mb-4">
+                                <div class="blog-img">
+                                    <img src="images/blog/img-5.jpg" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                                <div class="blog-content p-3 mx-3">
+                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">A person discuss for project </a></h4>
+                                    <p class="text-muted mb-0">If several languages coalesce, the grammar of the resulting language</p>
+                                </div>
+                                <div class="blog-meta px-4 pb-3">
+                                    <p class="float-end text-muted pt-1 mb-0">08 May, 2019</p>
+                                    <div class="float-start me-2">
+                                        <img src="images/users/img-2.png" alt="" class="rounded-circle avatar-sm">
+                                    </div>
+                                    <h5 class="font-14 mt-0 pt-2">Andrew Smith</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card overflow-hidden mb-4">
+                                <div class="blog-img">
+                                    <img src="images/blog/img-6.jpg" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                                <div class="blog-content p-3 mx-3">
+                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">A person discuss for project </a></h4>
+                                    <p class="text-muted mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                                </div>
+                                <div class="blog-meta px-4 pb-3">
+                                    <p class="float-end text-muted pt-1 mb-0">09 May, 2019</p>
+                                    <div class="float-start me-2">
+                                        <img src="images/users/img-3.png" alt="" class="rounded-circle avatar-sm">
+                                    </div>
+                                    <h5 class="font-14 mt-0 pt-2">Daniel Hatcher</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card overflow-hidden mb-4">
+                                <div class="blog-img">
+                                    <img src="images/blog/img-5.jpg" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                                <div class="blog-content p-3 mx-3">
+                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">A person discuss for project </a></h4>
+                                    <p class="text-muted mb-0">If several languages coalesce, the grammar of the resulting language</p>
+                                </div>
+                                <div class="blog-meta px-4 pb-3">
+                                    <p class="float-end text-muted pt-1 mb-0">08 May, 2019</p>
+                                    <div class="float-start me-2">
+                                        <img src="images/users/img-2.png" alt="" class="rounded-circle avatar-sm">
+                                    </div>
+                                    <h5 class="font-14 mt-0 pt-2">Andrew Smith</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card overflow-hidden mb-4">
+                                <div class="blog-img">
+                                    <img src="images/blog/img-6.jpg" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                                <div class="blog-content p-3 mx-3">
+                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">A person discuss for project </a></h4>
+                                    <p class="text-muted mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                                </div>
+                                <div class="blog-meta px-4 pb-3">
+                                    <p class="float-end text-muted pt-1 mb-0">09 May, 2019</p>
+                                    <div class="float-start me-2">
+                                        <img src="images/users/img-3.png" alt="" class="rounded-circle avatar-sm">
+                                    </div>
+                                    <h5 class="font-14 mt-0 pt-2">Daniel Hatcher</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- end row -->
                     <div class="row">
                         <div class="col-lg-12">
