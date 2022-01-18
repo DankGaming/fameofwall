@@ -72,7 +72,7 @@
                                     <img src="images/blog/img-4.jpg" alt="" class="img-fluid mx-auto d-block">
                                 </div>
                                 <div class="blog-content p-3 mx-3">
-                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">Nature valley with cooling</a></h5>
+                                    <h4 class="mt-0"><a href="blog-details.html" class="text-dark">Nature valley with cooling</a></h4>
                                         <p class="text-muted mb-0">At vero eos et accusamus et iusto odio digniss ducimus qui blanditiis</p>
                                 </div>
                                 <div class="blog-meta px-4 pb-3">
@@ -161,9 +161,9 @@
                                 <hr>
                                 <ul class="list-unstyled mb-0">
                                     <li><a href="#"><i class="pe-7s-car float-start me-2 text-primary font-22"></i> Travel <span class="float-end">(40)</span></a></li>
-                                    <li><a href="#"><i class="pe-7s-camera float-start me-2 text-primary font-22"></i> Photography<span class="float-end">(08)</span></a></a></li>
-                                    <li><a href="#"><i class="pe-7s-users float-start me-2 text-primary font-22"></i>Lifestyle<span class="float-end">(11)</span></a></a></li>
-                                    <li><a href="#"><i class="pe-7s-wine float-start me-2 text-primary font-22"></i>Food & Drinks<span class="float-end">(24)</span></a></a></li>
+                                    <li><a href="#"><i class="pe-7s-camera float-start me-2 text-primary font-22"></i> Photography<span class="float-end">(08)</span></a></li>
+                                    <li><a href="#"><i class="pe-7s-users float-start me-2 text-primary font-22"></i>Lifestyle<span class="float-end">(11)</span></a></li>
+                                    <li><a href="#"><i class="pe-7s-wine float-start me-2 text-primary font-22"></i>Food & Drinks<span class="float-end">(24)</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -205,16 +205,16 @@
                                 <hr>
                                 <ul class="list-unstyled mb-0">
                                     <li><a href="#">May <span class="float-end">(40)</span></a></li>
-                                    <li><a href="#">April<span class="float-end">(08)</span></a></a></li>
-                                    <li><a href="#">March<span class="float-end">(11)</span></a></a></li>
-                                    <li><a href="#">February<span class="float-end">(24)</span></a></a></li>
+                                    <li><a href="#">April<span class="float-end">(08)</span></a></li>
+                                    <li><a href="#">March<span class="float-end">(11)</span></a></li>
+                                    <li><a href="#">February<span class="float-end">(24)</span></a></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="widget widget-tag-cloud card mb-4">
                             <div class="p-4">
-                                <h4 class="widget-title mt-0">Tags</h5>
+                                <h4 class="widget-title mt-0">Tags</h4>
                                     <hr>
                                     <div class="tagcloud">
                                         <a href="#">Logo</a>
