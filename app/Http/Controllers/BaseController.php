@@ -7,6 +7,6 @@ namespace App\Http\Controllers;
 class BaseController extends Controller
 {
     public function index(){
-        return view('core.skeleton');
+        return view('main');
     }
 }

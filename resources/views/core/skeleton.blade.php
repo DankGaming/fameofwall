@@ -53,10 +53,8 @@
                 </div>
                 <!-- end page title -->
 
-                @yield('content')
-
             </div> <!-- container -->
-
+            @yield('content')
         </div> <!-- content -->
 
         <!-- Footer Start -->
