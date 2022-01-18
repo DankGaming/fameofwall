@@ -1,10 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-  $visited = DB::select('select * from places where visited = ?', [1]); 
-  $togo = DB::select('select * from places where visited = ?', [0]);
+require base_path('routes/web/pages.php');
 
-  return view('travel_list', ['visited' => $visited, 'togo' => $togo ] );
-});
+//Route::get('/', 'BaseController@index')->name('management.ranks')->middleware(['auth', 'role:ADMIN']);
+
+//Route::post('/management/ranks/new', 'Management\RankController@create')->name('management.ranks.create')->middleware(['auth', 'role:ADMIN']);
