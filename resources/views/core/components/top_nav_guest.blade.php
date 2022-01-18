@@ -261,7 +261,7 @@
             </li>
 
             <li class="d-none d-lg-block">
-                loading
+                <a href="{{route('auth.steam')}}">Login</a>
             </li>
 
             <li class="dropdown notification-list">

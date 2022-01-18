@@ -14,9 +14,10 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->bigInteger('steamid');
+            $table->bigInteger('steamid')->primary();
             $table->string('name');
-            $table->integer('role_id');
+            $table->string('avatar');
+            $table->integer('role_id')->nullable();
             $table->timestamps();
         });
     }

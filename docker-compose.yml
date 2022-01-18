@@ -32,6 +32,18 @@ services:
     networks:
       - walloffame
 
+  phpmyadmin:
+    image: 'phpmyadmin/phpmyadmin:4.8'
+    container_name: 'walloffame-phpmyadmin'
+    ports:
+      - 8082:80
+    links:
+      - 'db:db'
+    depends_on:
+      - db
+    networks:
+      - walloffame
+
   nginx:
     image: nginx:alpine
     container_name: walloffame-nginx
