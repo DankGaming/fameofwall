@@ -10,86 +10,83 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     <link href="{{ asset('assets/libs/jquery-toast-plugin/jquery.toast.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assets/css/bootstrap-corporate.min.css') }}" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
-    <link href="{{ asset('assets/css/app-corporate.min.css') }}" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
-    <link href="{{ asset('assets/css/bootstrap-corporate-dark.min.css') }}" rel="stylesheet" type="text/css" id="bs-dark-stylesheet" />
-    <link href="{{ asset('assets/css/app-corporate-dark.min.css') }}" rel="stylesheet" type="text/css" id="app-dark-stylesheet" />
-    <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
-
-
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!--Material Icon -->
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-
-    <!--pe-icon-7 Icon -->
-    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css" />
-
-    <!-- Custom  css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="{{ asset('assets/css/creative/bootstrap-dark.css') }}" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
+    <link href="{{ asset('assets/css/creative/app-dark.css') }}" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
+    <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet" type="text/css" />
 
     @yield('css')
 </head>
 
-<body class="loading" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "dark", "size": "condensed", "showuser": false}, "topbar": {"color": "light"}, "showRightSidebarOnPageLoad": true}'>
+<body class="loading" data-layout-mode="horizontal" data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "topbar": {"color": "dark"}, "showRightSidebarOnPageLoad": true}'>
+
+<!-- Begin page -->
 <div id="wrapper">
-    <div class="left-side-menu">
-        <div class="logo-box">
-            <a class="logo logo-light text-center">
-                <span class="logo-sm">
-                    <img src="{{ asset('assets/images/logo-transparant.png') }}" alt="" height="64">
-                </span>
-                <span class="logo-lg">
-                    <img src="{{ asset('assets/images/logo-transparant.png') }}" alt="" height="64">
-                </span>
-            </a>
-        </div>
 
-        <div class="h-100" data-simplebar>
-            <div id="sidebar-menu">
-                <ul id="side-menu">
-                    <li class="menu-title">Navigation</li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
+    <!-- Topbar Start -->
+    @auth
+        @include('core.components.top_nav')
+    @endauth
+    @guest
+        @include('core.components.top_nav_guest')
+    @endguest
 
-    <div class="content-page">
+    <div class="content-page" style="padding-top: 70px;">
         <div class="content">
-            <div class="navbar-custom">
-                <div class="container-fluid">
-                    <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
-                        <li>
-                            <button class="button-menu-mobile waves-effect waves-light">
-                                <i class="fe-menu"></i>
-                            </button>
-                        </li>
 
-                        <li>
-                            <a class="navbar-toggle nav-link" data-toggle="collapse" data-target="#topnav-menu-content">
-                                <div class="lines">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="clearfix"></div>
+            <!-- Start Content-->
+            <div class="container-fluid">
+
+                <!-- start page title -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box page-title-box-alt">
+                            <h4 class="page-title">Starter</h4>
+                            <div class="page-title-right">
+                                <ol class="breadcrumb m-0">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Minton</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Extras</a></li>
+                                    <li class="breadcrumb-item active">Starter</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+
+                @yield('content')
+
+            </div> <!-- container -->
+
+        </div> <!-- content -->
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <script>document.write(new Date().getFullYear())</script> &copy; PERP Wall Of Fame by <a href="">Dank</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-md-end footer-links d-none d-sm-block">
+                            <a href="javascript:void(0);">About Us</a>
+                            <a href="javascript:void(0);">Help</a>
+                            <a href="javascript:void(0);">Contact Us</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                test
-                @yield('content')
-            </div>
-        </div>
+        </footer>
+        <!-- end Footer -->
+
     </div>
+
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
+
+
 </div>
+
 <script src="{{ asset('themes/js/sweetalert.min.js') }}"></script>
 <script src="{{ asset('assets/js/vendor.min.js') }}"></script>
 <script src="{{ asset('assets/js/app.min.js') }}"></script>
