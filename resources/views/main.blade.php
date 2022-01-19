@@ -1,6 +1,24 @@
 @extends('core.skeleton')
 
 @section('content')
+    <div class="container-fluid">
+
+        <!-- start page title -->
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box page-title-box-alt">
+                    <h4 class="page-title">Dashboard</h4>
+                    <div class="page-title-right">
+                        <ol class="breadcrumb m-0">
+                            <li class="breadcrumb-item active">Dashboard</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end page title -->
+
+    </div> <!-- container -->
 
     <!-- blog start -->
     <section class="section">

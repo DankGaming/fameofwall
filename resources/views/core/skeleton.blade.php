@@ -32,28 +32,6 @@
 
     <div class="content-page" style="padding-top: 70px;">
         <div class="content">
-
-            <!-- Start Content-->
-            <div class="container-fluid">
-
-                <!-- start page title -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="page-title-box page-title-box-alt">
-                            <h4 class="page-title">Starter</h4>
-                            <div class="page-title-right">
-                                <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Minton</a></li>
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Extras</a></li>
-                                    <li class="breadcrumb-item active">Starter</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end page title -->
-
-            </div> <!-- container -->
             @yield('content')
         </div> <!-- content -->
 
