@@ -17,7 +17,6 @@ class CreateUsersTable extends Migration
             $table->bigInteger('steamid')->primary();
             $table->string('name');
             $table->string('avatar');
-            $table->integer('role_id')->nullable();
             $table->string('remember_token')->nullable();
             $table->timestamps();
         });
